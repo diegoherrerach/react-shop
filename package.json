@@ -10,7 +10,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://diegoherrerach.github.io/react-shop",
+  "homepage": "https://diegoherrerach.github.io/react-shop/",
   "keywords": [
     "react",
     "javascript",
