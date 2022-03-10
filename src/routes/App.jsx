@@ -22,7 +22,7 @@ const App = () => {
 		<BrowserRouter>
 			<Layout>
 				<Switch>
-					<Route exact path="/" component={Home} />
+					<Route exact path="/" component={NotFound} />
 					<Route exact path="/login" component={Login} />
 					<Route exact path="/recovery-password" component={RecoveryPassword} />
 					<Route exact path="/send-email" component={SendEmail} />
@@ -31,7 +31,7 @@ const App = () => {
 					<Route exact path="/signup" component={CreateAccount} />
 					<Route exact path="/checkout" component={Checkout} />
 					<Route exact path="/orders" component={Orders} />
-					<Route path="*" component={NotFound} />
+					<Route path="*" component={Home} />
 				</Switch>
 			</Layout>
 		</BrowserRouter>
