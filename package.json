@@ -8,7 +8,6 @@
     "start": "webpack serve --open",
     "build": "webpack --mode production"
   },
-  "homepage": "https://diegoherrerach.github.io/react-shop/",
   "keywords": [
     "react",
     "javascript",
